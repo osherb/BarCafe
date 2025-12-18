@@ -4,9 +4,9 @@ const App: React.FC = () => {
   // Updated links based on the user request
   const menuButtons = [
     { text: 'לקחת - רוקח 58', href: 'https://tbit.be/QzYY95' },
-    { text: 'קח/שב - רוקח 58', href: '#' },
+    { text: 'לשבת - רוקח 58', href: 'https://tbit.be/UbYHIm' },
     { text: 'לקחת - רשי 23', href: 'https://tbit.be/XtuwqD' },
-    { text: 'קח/שב - רשי 23', href: '#' },
+    { text: 'לשבת - רשי 23', href: 'https://tbit.be/sejGHF' },
   ];
 
   return (
@@ -15,16 +15,11 @@ const App: React.FC = () => {
       <div className="z-10 w-full max-w-md flex flex-col items-center gap-10 mt-4 sm:mt-10">
         
         {/* Logo - Circular Stamp */}
-        <div className="animate-logo relative w-48 h-48 sm:w-56 sm:h-56 rounded-full border-[3px] border-black flex flex-col items-center justify-center shrink-0 bg-transparent">
-          {/* Inner ring */}
-          <div className="absolute inset-2 rounded-full border-[1.5px] border-black"></div>
-          
-          <div className="w-[65%] h-[2px] bg-black mb-2"></div>
-          <h1 className="text-4xl sm:text-5xl font-black tracking-wider text-black z-10 px-2 leading-none pb-1 pt-0 text-center font-rubik">
-             בר-קפה
-          </h1>
-          <div className="w-[65%] h-[2px] bg-black mt-2"></div>
-        </div>
+            <img 
+            src="/barcafe_logo_final.png" 
+            alt="Bar Cafe Logo" 
+            className="w-48 h-48 sm:w-56 sm:h-56 shrink-0 animate-logo"
+            />
 
         {/* Buttons Section */}
         <div className="w-full flex flex-col gap-5">
