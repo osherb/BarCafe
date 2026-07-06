@@ -3,10 +3,10 @@ import React from 'react';
 const App: React.FC = () => {
   // Updated links based on the user request
   const menuButtons = [
-    { text: 'לקחת - רוקח 58', href: 'https://tbit.be/QzYY95' },
-    { text: 'לשבת - רוקח 58', href: 'https://tbit.be/UbYHIm' },
-    { text: 'לקחת - רשי 23', href: 'https://tbit.be/XtuwqD' },
-    { text: 'לשבת - רשי 23', href: 'https://tbit.be/sejGHF' },
+    { text: 'שנקר (ידע עם 3)', href: 'https://tabitisrael.co.il/tabit-order?site=69e628385120720d04fd3ab5&step=enter' },
+    { text: 'רשי 23', href: 'https://tbit.be/GUSjXh' },
+    { text: 'רוקח 58', href: 'https://tbit.be/UbYHIm' },
+    { text: 'העם הצרפתי 23 (בקרוב)', href: '#' },
   ];
 
   return (
